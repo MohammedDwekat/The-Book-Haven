@@ -1,4 +1,4 @@
-const Books = [
+export const Books = [
   {
     id: 1,
     title: "The Enchanted Forest",
