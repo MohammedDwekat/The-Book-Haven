@@ -1,0 +1,85 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #183505; 
+    color: #fff;
+    padding: 20px;
+}
+
+.book-details-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Back link */
+.back-link {
+    text-decoration: none;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 1.2em;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Book Details Wrapper */
+.book-details-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+/* Book Image Styling */
+.book-image img {
+    max-width: 300px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Book Info Styling */
+.book-info {
+    max-width: 700px;
+}
+
+/* Book Title */
+.book-info h1 {
+    font-size: 2em;
+    color: #cffc2f; 
+    margin-bottom: 20px;
+}
+
+/* Description Text */
+.book-info .description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #c0c0c0;
+}
+
+/* Price Styling */
+.book-info .price {
+    font-size: 1.3em;
+    margin-bottom: 10px;
+}
+
+.book-info .price span {
+    color: #cffc2f; 
+    font-weight: bold;
+}
+
+/* Author Styling */
+.book-info .book-name {
+    font-size: 1.1em;
+    color: #7bbfff; 
+}
+.book-info .author {
+    font-size: 1.1em;
+    color: #9db3c7; 
+}
