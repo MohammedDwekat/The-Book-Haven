@@ -3,17 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="script.js"></script>
-    <script type="module" src="data.js"></script>
     <title>The Book Haven</title>
+    <link rel="stylesheet" href="css/home.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
   </head>
-  <header>//header</header>
   <body>
-    <main>
-      <section>// search</section>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/" class="brand"> <span>Book's</span> Library </a>
+        </div>
 
-      <section id="book-list"></section>
-    </main>
+        <div class="navmenu">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="pages/AllBooks.html">All Books</a></li>
+            <li><a href="#">Add Books</a></li>
+            <li><a href="#contactus">Contact Us</a></li>
+          </ul>
+
+          <div class="search-box">
+            <input type="search" class="search" placeholder="Search here..." />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+      </nav>
+
+      <div class="menubar">
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </div>
+
+      <div class="main-header">
+        <div class="header">
+          <h5>Book Library</h5>
+          <h2>For All Your Reading Needs</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero,
+            illum nostrum alias praesentium.
+          </p>
+          <a href="pages/AllBooks.html" class="btn">View Books</a>
+        </div>
+
+        <img src="imgs/1.webp" alt="" />
+      </div>
+    </header>
+
+    <section class="cards">
+      <!-- Product Card -->
+      <div class="product-container">
+        <div class="product-card">
+          <img
+            src="imgs/1.webp"
+            alt="Art & Architecture - Ancient and Medieval Art"
+          />
+          <div class="book-details">
+            <h3>Art & Architecture - Ancient and Medieval Art</h3>
+            <p>Wonder House Book</p>
+            <p class="price">Rs.500</p>
+            <p class="description">
+              This book explores the rich and diverse art and architecture from
+              ancient to medieval times, providing insights into various
+              cultures and histories.
+            </p>
+          </div>
+          <div class="card-footer">
+            <button class="read-more-btn">Read More</button>
+            <div class="actions">
+              <i class="bx bxs-edit update-icon"></i>
+              <i class="bx bxs-trash delete-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="show-more-container">
+        <a href="pages/AllBooks.html"
+          ><button class="show-more-btn">Show More</button></a
+        >
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>✉️Contact Us</h2>
+      <p>If you'd like to get in touch, please fill out the form below:</p>
+      <form>
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+        </div>
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Enter your message"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>©2024 All rights reserved to Binary Builders Team</p>
+    </footer>
+
+    <script src="js/main.js"></script>
   </body>
-  <footer>// footer</footer>
 </html>
