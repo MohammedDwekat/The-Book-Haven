@@ -15,6 +15,40 @@ header {
   height: auto;
 }
 
+/* Scroll to Top Button */
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #4caf50;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.4s ease-in-out;
+}
+
+.scroll-to-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.scroll-to-top a {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+.scroll-to-top:hover {
+  background-color: #45a049;
+}
+
 /* ----- Responsive ----- */
 @media (max-width: 1420px) {
 }

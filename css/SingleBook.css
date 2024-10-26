@@ -1,85 +1,90 @@
-/* Basic reset */
+@import "about.css";
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins";
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #183505; 
-    color: #fff;
-    padding: 20px;
+header {
+  width: auto;
+  height: auto;
 }
 
-.book-details-container {
-    max-width: 1200px;
-    margin: 0 auto;
+#book-details {
+  background: #e7f0f3ac;
+  width: 100%;
+  padding: 50px 0;
 }
 
-/* Back link */
-.back-link {
-    text-decoration: none;
-    color: #ffffff;
-    display: inline-block;
-    margin-bottom: 20px;
-    font-size: 1.2em;
+.book-content {
+  padding-left: 30px;
+  margin-bottom: 60px;
 }
 
-.back-link:hover {
-    text-decoration: underline;
+.book-content h2 {
+  font-size: 42px;
+  padding-bottom: 20px;
 }
 
-/* Book Details Wrapper */
-.book-details-wrapper {
-    display: flex;
-    align-items: center;
-    gap: 40px;
+.book-content .description {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 20px;
 }
 
-/* Book Image Styling */
-.book-image img {
-    max-width: 300px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+.book-content .price {
+  font-size: 22px;
+  color: #0b910b;
+  margin-bottom: 10px;
 }
 
-/* Book Info Styling */
-.book-info {
-    max-width: 700px;
+.book-content .current-price {
+  font-weight: bold;
 }
 
-/* Book Title */
-.book-info h1 {
-    font-size: 2em;
-    color: #cffc2f; 
-    margin-bottom: 20px;
+.book-details {
+  list-style: none;
+  margin-bottom: 20px;
 }
 
-/* Description Text */
-.book-info .description {
-    font-size: 1.1em;
-    line-height: 1.6;
-    margin-bottom: 20px;
-    color: #c0c0c0;
+.book-details li {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
 }
 
-/* Price Styling */
-.book-info .price {
-    font-size: 1.3em;
-    margin-bottom: 10px;
+.book-content .address {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
-.book-info .price span {
-    color: #cffc2f; 
-    font-weight: bold;
+.actions {
+  display: flex;
+  gap: 10px;
 }
 
-/* Author Styling */
-.book-info .book-name {
-    font-size: 1.1em;
-    color: #7bbfff; 
+.update-icon,
+.delete-icon {
+  font-size: 20px;
+  cursor: pointer;
+  color: #001f87;
+  transition: color transform 0.3s;
 }
-.book-info .author {
-    font-size: 1.1em;
-    color: #9db3c7; 
+
+.delete-icon {
+  color: #8b0000;
+}
+
+.update-icon:hover {
+  color: #0026a0;
+  transform: scale(1.09);
+}
+
+.delete-icon:hover {
+  color: #a10000;
+  transform: scale(1.09);
 }

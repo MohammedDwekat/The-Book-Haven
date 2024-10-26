@@ -1,6 +1,4 @@
 @import "header.css";
-@import "cards.css";
-@import "contact.css";
 @import "footer.css";
 
 * {
@@ -9,6 +7,65 @@
   text-decoration: none;
   list-style: none;
   font-family: "Poppins";
+}
+
+header {
+  width: auto;
+  height: auto;
+}
+
+/* --- about section --- */
+.set-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 75%;
+  margin: auto;
+  gap: 20px;
+}
+
+.set-row img {
+  width: 380px;
+  height: auto;
+  border-radius: 20px;
+}
+
+#about {
+  background: #e7f0f3ac;
+  width: 100%;
+  padding: 50px 0px;
+}
+
+.set-row .about-content {
+  padding-left: 30px;
+  margin-bottom: 60px;
+}
+
+.set-row .about-content h2 {
+  font-size: 42px;
+  padding-bottom: 20px;
+}
+
+.set-row .about-content p {
+  font-size: 18px;
+  line-height: 24px;
+  padding-bottom: 46px;
+}
+
+.set-row .about-content .btn2 {
+  background: #0b910b;
+  border: 1px solid #0b910b;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 12px 30px;
+  border-radius: 50px;
+  transition: all 0.5s;
+}
+
+.set-row .about-content .btn2:hover {
+  background: #ffffff;
+  color: #0b910b;
 }
 
 /* Scroll to Top Button */
