@@ -1,35 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Book Details</title>
-    <link rel="stylesheet" href="SingleBook.css">
-</head>
-<body>
-    <!-- Book Details Section -->
-    <div class="book-details-container">
-        <!-- Back to Books Section Link -->
-        <a href="#" class="back-link">← Books Section</a>
-        
-        <!-- Book Details Wrapper -->
-        <div class="book-details-wrapper">
-            <!-- Book Image -->
-            <div class="book-image">
-                <img src="bookcover.webp" alt="Ancient and Medieval Art Book">
-            </div>
-            
-            <!-- Book Information -->
-            <div class="book-info">
-                <h1>Art & Architecture - Ancient and Medieval Art</h1>
-                <p class="description">
-                    What does the marvellous Mesopotamian art signify? What stories does the Bayeux tapestry of the dark ages hold? How did the celebrated Roman mosaics come to be? 
-                </p>
-                <p class="price">Current Price: <span class="current-price">RS 800</span></p>
-                <p class="book-name">Wonder House Book</p>
-                <p class="author">Author</p>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Book Haven</title>
+    <link rel="stylesheet" href="../css/singleBook.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/The-Book-Haven/" class="brand">
+            <span>Book's</span> Library
+          </a>
         </div>
+
+        <div class="navmenu">
+          <ul>
+            <li><a href="/The-Book-Haven/">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="AllBooks.html">All Books</a></li>
+            <li><a href="AddBooks.html">Add Books</a></li>
+            <li><a href="/The-Book-Haven/">Contact Us</a></li>
+          </ul>
+
+          <div class="search-box">
+            <input type="search" class="search" placeholder="Search here..." />
+            <i class="bx bx-search"></i>
+          </div>
+        </div>
+      </nav>
+      <div class="menubar">
+        <i class="bx bx-menu" id="menu-icon"></i>
+      </div>
+    </header>
+
+    <section id="book-details">
+      <div class="set-row">
+        <img src="../imgs/1.webp" alt="Book Cover" />
+
+        <div class="book-content">
+          <h2>Ancient Art & Architecture</h2>
+
+          <p class="description">
+            Discover the marvels of ancient civilizations through their art and
+            architecture. This book explores the stories behind Mesopotamian
+            art, Roman mosaics, and much more.
+          </p>
+          <p class="price">Price: <span class="current-price">RS 900</span></p>
+
+          <ul class="book-details">
+            <li><strong>Author:</strong> John Smith</li>
+          </ul>
+
+          <div class="actions">
+            <i class="bx bxs-edit update-icon"></i>
+            <i class="bx bxs-trash delete-icon"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>©2024 All rights reserved to Binary Builders Team</p>
+    </footer>
+
+    <div class="scroll-to-top">
+      <a href="#top">↑</a>
     </div>
-</body>
+
+    <script src="../js/main.js"></script>
+  </body>
 </html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Details</title>
+    <link rel="stylesheet" href="../css/SingleBook.css" />
+  </head>
+  <body>
+    <div class="book-details-container">
+      <a href="#" class="back-link">← Books Section</a>
+
+      <div class="book-details-wrapper">
+        <div class="book-image">
+          <img
+            src="../imgs/bookcover.webp"
+            alt="Ancient and Medieval Art Book"
+          />
+        </div>
+
+        <div class="book-info">
+          <h1>Art & Architecture - Ancient and Medieval Art</h1>
+          <p class="description">
+            What does the marvellous Mesopotamian art signify? What stories does
+            the Bayeux tapestry of the dark ages hold? How did the celebrated
+            Roman mosaics come to be?
+          </p>
+          <p class="price">
+            Current Price: <span class="current-price">RS 800</span>
+          </p>
+          <p class="book-name">Wonder House Book</p>
+          <p class="author">Author</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html> -->
