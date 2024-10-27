@@ -1,222 +1,204 @@
-[
-  {
-    id: 21,
-    title: "Whispers of the Wind",
-    author: "Eleanor Parker",
-    genre: "Fantasy",
-    description:
-      "A mystical journey of a young warrior guided by the whispers of the wind.",
-    status: "unread",
-    image: "placeholder_for_whispers_of_wind.png",
-    price: 15.99,
-  },
-  {
-    id: 22,
-    title: "The Code Breaker",
-    author: "Mason Hill",
-    genre: "Technology",
-    description:
-      "An exciting look into the world of cryptography and those who break the codes.",
-    status: "read",
-    image: "placeholder_for_code_breaker.png",
-    price: 12.49,
-  },
-  {
-    id: 23,
-    title: "Haunted Nights",
-    author: "Nina Blake",
-    genre: "Horror",
-    description:
-      "A chilling story of a family haunted by unseen forces in their new home.",
-    status: "unread",
-    image: "placeholder_for_haunted_nights.png",
-    price: 14.99,
-  },
-  {
-    id: 24,
-    title: "Quantum Dreams",
-    author: "William Fox",
-    genre: "Science Fiction",
-    description:
-      "A journey into the multiverse through the eyes of a quantum physicist.",
-    status: "read",
-    image: "placeholder_for_quantum_dreams.png",
-    price: 16.99,
-  },
-  {
-    id: 25,
-    title: "The Lost Artifact",
-    author: "Grace Lee",
-    genre: "Adventure",
-    description:
-      "A thrilling adventure to uncover a legendary artifact that has been lost for centuries.",
-    status: "unread",
-    image: "placeholder_for_lost_artifact.png",
-    price: 13.59,
-  },
-  {
-    id: 26,
-    title: "Heart of the Ocean",
-    author: "Oliver Cole",
-    genre: "Romance",
-    description:
-      "A moving romance set against the vast, unpredictable waves of the sea.",
-    status: "read",
-    image: "placeholder_for_heart_of_ocean.png",
-    price: 9.99,
-  },
-  {
-    id: 27,
-    title: "The Time Traveler's Diary",
-    author: "Isaac Ward",
-    genre: "Science Fiction",
-    description:
-      "A thrilling tale of a man who discovers a diary that lets him travel through time.",
-    status: "unread",
-    image: "placeholder_for_time_travelers_diary.png",
-    price: 19.49,
-  },
-  {
-    id: 28,
-    title: "Mysterious Islands",
-    author: "Emma Scott",
-    genre: "Mystery",
-    description:
-      "A group of friends unearth hidden secrets on a remote island filled with danger.",
-    status: "read",
-    image: "placeholder_for_mysterious_islands.png",
-    price: 11.99,
-  },
-  {
-    id: 29,
-    title: "Galactic Odyssey",
-    author: "Luke Daniels",
-    genre: "Science Fiction",
-    description:
-      "An epic space opera following the journey of a starship exploring the outer reaches of the galaxy.",
-    status: "unread",
-    image: "placeholder_for_galactic_odyssey.png",
-    price: 18.79,
-  },
-  {
-    id: 30,
-    title: "Echoes of the Past",
-    author: "Sophia Harper",
-    genre: "Historical Fiction",
-    description:
-      "A historical novel intertwining the lives of two families across generations.",
-    status: "read",
-    image: "placeholder_for_echoes_of_past.png",
-    price: 14.49,
-  },
-  {
-    id: 31,
-    title: "Cyber Wars",
-    author: "James Monroe",
-    genre: "Technology",
-    description:
-      "A riveting tale of cyber attacks and digital warfare in a near-future world.",
-    status: "unread",
-    image: "placeholder_for_cyber_wars.png",
-    price: 17.29,
-  },
-  {
-    id: 32,
-    title: "The Dark Forest",
-    author: "Rachel King",
-    genre: "Fantasy",
-    description:
-      "An enchanted forest holds a dark secret waiting to be uncovered by a brave adventurer.",
-    status: "read",
-    image: "placeholder_for_dark_forest.png",
-    price: 10.99,
-  },
-  {
-    id: 33,
-    title: "Silent Waters",
-    author: "Hannah Quinn",
-    genre: "Mystery",
-    description:
-      "A suspenseful mystery about a quiet coastal town where dark secrets lie beneath the surface.",
-    status: "unread",
-    image: "placeholder_for_silent_waters.png",
-    price: 9.99,
-  },
-  {
-    id: 34,
-    title: "Rise of the Machines",
-    author: "Daniel Hughes",
-    genre: "Science Fiction",
-    description:
-      "A post-apocalyptic world where machines have taken over and a group of survivors fights back.",
-    status: "read",
-    image: "placeholder_for_rise_of_machines.png",
-    price: 13.79,
-  },
-  {
-    id: 35,
-    title: "Cursed Lands",
-    author: "Lily Taylor",
-    genre: "Fantasy",
-    description:
-      "A young hero must break the curse that plagues a forgotten land.",
-    status: "unread",
-    image: "placeholder_for_cursed_lands.png",
-    price: 15.29,
-  },
-  {
-    id: 36,
-    title: "Shattered Realms",
-    author: "Joshua Brown",
-    genre: "Science Fiction",
-    description:
-      "A story of interdimensional travel and the chaos that unfolds when the realms collide.",
-    status: "read",
-    image: "placeholder_for_shattered_realms.png",
-    price: 11.49,
-  },
-  {
-    id: 37,
-    title: "Crimson Moon",
-    author: "Ava Collins",
-    genre: "Horror",
-    description:
-      "A terrifying tale of werewolves and the blood moon that drives them to madness.",
-    status: "unread",
-    image: "placeholder_for_crimson_moon.png",
-    price: 14.79,
-  },
-  {
-    id: 38,
-    title: "The Architect's Secret",
-    author: "Samuel Wright",
-    genre: "Mystery",
-    description:
-      "An ancient secret is hidden within the blueprints of an old building.",
-    status: "read",
-    image: "placeholder_for_architects_secret.png",
-    price: 12.59,
-  },
-  {
-    id: 39,
-    title: "Virtual Revolution",
-    author: "Megan Edwards",
-    genre: "Technology",
-    description:
-      "A near-future world where virtual reality has taken over, leading to unexpected consequences.",
-    status: "unread",
-    image: "placeholder_for_virtual_revolution.png",
-    price: 16.99,
-  },
-  {
-    id: 40,
-    title: "Beneath the Ice",
-    author: "Ryan Brooks",
-    genre: "Thriller",
-    description:
-      "A thrilling expedition to the Antarctic uncovers a deadly secret hidden beneath the ice.",
-    status: "read",
-    image: "placeholder_for_beneath_the_ice.png",
-    price: 14.49,
-  },
-];
+{
+  "books": [
+    {
+      "id": 1,
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "genre": "Classic",
+      "description": "A story of the mysteriously wealthy Jay Gatsby and his love for the beautiful Daisy Buchanan.",
+      "status": "unread",
+      "image": "the_great_gatsby.png",
+      "price": 10.99
+    },
+    {
+      "id": 2,
+      "title": "1984",
+      "author": "George Orwell",
+      "genre": "Dystopian",
+      "description": "A dystopian social science fiction novel and cautionary tale about the future.",
+      "status": "unread",
+      "image": "1984.png",
+      "price": 8.99
+    },
+    {
+      "id": 3,
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "genre": "Fiction",
+      "description": "A novel about the serious issues of rape and racial inequality.",
+      "status": "unread",
+      "image": "to_kill_a_mockingbird.png",
+      "price": 9.99
+    },
+    {
+      "id": 4,
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "genre": "Romance",
+      "description": "A romantic novel that critiques the British landed gentry at the end of the 18th century.",
+      "status": "unread",
+      "image": "pride_and_prejudice.png",
+      "price": 7.99
+    },
+    {
+      "id": 5,
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "genre": "Fiction",
+      "description": "A story about teenage angst and alienation.",
+      "status": "unread",
+      "image": "the_catcher_in_the_rye.png",
+      "price": 8.49
+    },
+    {
+      "id": 6,
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "genre": "Fantasy",
+      "description": "A fantasy novel about the adventures of Bilbo Baggins.",
+      "status": "unread",
+      "image": "the_hobbit.png",
+      "price": 10.50
+    },
+    {
+      "id": 7,
+      "title": "Moby Dick",
+      "author": "Herman Melville",
+      "genre": "Adventure",
+      "description": "The narrative of Captain Ahab's obsessive quest to kill Moby Dick.",
+      "status": "unread",
+      "image": "moby_dick.png",
+      "price": 11.99
+    },
+    {
+      "id": 8,
+      "title": "War and Peace",
+      "author": "Leo Tolstoy",
+      "genre": "Historical",
+      "description": "A novel that chronicles the history of the French invasion of Russia.",
+      "status": "unread",
+      "image": "war_and_peace.png",
+      "price": 12.50
+    },
+    {
+      "id": 9,
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "genre": "Adventure",
+      "description": "A philosophical story about a shepherd's journey to find treasure.",
+      "status": "unread",
+      "image": "the_alchemist.png",
+      "price": 9.99
+    },
+    {
+      "id": 10,
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "genre": "Philosophical",
+      "description": "A story about a man whose portrait ages while he remains young.",
+      "status": "unread",
+      "image": "the_picture_of_dorian_gray.png",
+      "price": 8.99
+    },
+    {
+      "id": 11,
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "genre": "Gothic",
+      "description": "A novel about the experiences of an orphaned girl.",
+      "status": "unread",
+      "image": "jane_eyre.png",
+      "price": 9.49
+    },
+    {
+      "id": 12,
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "genre": "Dystopian",
+      "description": "A dystopian novel set in a futuristic world.",
+      "status": "unread",
+      "image": "brave_new_world.png",
+      "price": 10.99
+    },
+    {
+      "id": 13,
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "genre": "Dystopian",
+      "description": "A novel about a future society where books are banned.",
+      "status": "unread",
+      "image": "fahrenheit_451.png",
+      "price": 8.99
+    },
+    {
+      "id": 14,
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "genre": "Philosophical",
+      "description": "A story exploring deep philosophical themes.",
+      "status": "unread",
+      "image": "the_brothers_karamazov.png",
+      "price": 14.99
+    },
+    {
+      "id": 15,
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "genre": "Adventure",
+      "description": "A story about an innocent man wrongly imprisoned seeking revenge.",
+      "status": "unread",
+      "image": "the_count_of_monte_cristo.png",
+      "price": 12.99
+    },
+    {
+      "id": 16,
+      "title": "The Odyssey",
+      "author": "Homer",
+      "genre": "Epic",
+      "description": "An ancient Greek epic poem about the adventures of Odysseus.",
+      "status": "unread",
+      "image": "the_odyssey.png",
+      "price": 10.99
+    },
+    {
+      "id": 17,
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "genre": "Gothic",
+      "description": "A tale of passion and revenge on the Yorkshire moors.",
+      "status": "unread",
+      "image": "wuthering_heights.png",
+      "price": 9.99
+    },
+    {
+      "id": 18,
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "genre": "Fiction",
+      "description": "A story about the lives and struggles of four sisters.",
+      "status": "unread",
+      "image": "little_women.png",
+      "price": 7.99
+    },
+    {
+      "id": 19,
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "genre": "Historical",
+      "description": "A tale of the Great Depression and the struggles of migrant families.",
+      "status": "unread",
+      "image": "the_grapes_of_wrath.png",
+      "price": 11.99
+    },
+    {
+      "id": 20,
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "genre": "Post-apocalyptic",
+      "description": "A harrowing tale of survival in a post-apocalyptic world.",
+      "status": "unread",
+      "image": "the_road.png",
+      "price": 9.99
+    }
+  ]
+}
