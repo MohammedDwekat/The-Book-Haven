@@ -7,7 +7,7 @@
       "genre": "Fiction",
       "description": "An example description.",
       "image": "1.webp",
-      "price": "24"
+      "price": "25"
     },
     {
       "id": "2",
@@ -336,36 +336,6 @@
       "status": "unread",
       "price": "232",
       "image": "IMG_5667.jpeg"
-    },
-    {
-      "id": "1048",
-      "title": "das",
-      "author": "das",
-      "genre": "das",
-      "description": "das",
-      "status": "unread",
-      "price": "231",
-      "image": "242652573_4699275943418604_3704718376081087231_n.jpg"
-    },
-    {
-      "id": "1049",
-      "title": "laast",
-      "author": "das",
-      "genre": "666",
-      "description": "das",
-      "status": "unread",
-      "price": "33",
-      "image": "IMG_5682.jpeg"
-    },
-    {
-      "id": "1050",
-      "title": "das",
-      "author": "das",
-      "genre": "321",
-      "description": "das",
-      "status": "unread",
-      "price": "223",
-      "image": "IMG_5682.jpeg"
     }
   ]
 }
