@@ -41,11 +41,15 @@
 
     <div class="container">
       <h2>Update Books From Here</h2>
-      <form class="update-book-form">
+      <form
+        class="update-book-form"
+        id="update-book-form"
+        onsubmit="UpdateSubmit(event)"
+      >
         <div class="form-row">
           <div class="form-group">
-            <label for="name">Name</label>
-            <input type="text" id="name" placeholder="Enter book name" />
+            <label for="title">Title</label>
+            <input type="text" id="title" placeholder="Enter book name" />
           </div>
           <div class="form-group">
             <label for="author">Author</label>
@@ -67,10 +71,20 @@
           </div>
           <div class="form-group">
             <label for="image">Image</label>
+            <span id="currentImageName"></span><br />
             <input type="file" id="image" placeholder="Enter image URL" />
           </div>
+          <div class="form-group">
+            <label for="genre">Genre</label>
+            <input
+              type="text"
+              id="genre"
+              placeholder="Enter book genre"
+              required
+            />
+          </div>
         </div>
-        <button type="submit">Update Book</button>
+        <button type="submit" onclick="FormSubmit()">Update Book</button>
       </form>
     </div>
 
@@ -84,4 +98,6 @@
 
     <script src="../js/main.js"></script>
   </body>
+  <script type="module" src="../js/UpdateSubmit.js"></script>
+  <script type="module" src="../js/UpdateBook.js"></script>
 </html>

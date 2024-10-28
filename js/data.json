@@ -1,202 +1,371 @@
-[
-  {
-    "id": 21,
-    "title": "Whispers of the Wind",
-    "author": "Eleanor Parker",
-    "genre": "Fantasy",
-    "description": "A mystical journey of a young warrior guided by the whispers of the wind.",
-    "status": "unread",
-    "image": "placeholder_for_whispers_of_wind.png",
-    "price": 15.99
-  },
-  {
-    "id": 22,
-    "title": "The Code Breaker",
-    "author": "Mason Hill",
-    "genre": "Technology",
-    "description": "An exciting look into the world of cryptography and those who break the codes.",
-    "status": "read",
-    "image": "placeholder_for_code_breaker.png",
-    "price": 12.49
-  },
-  {
-    "id": 23,
-    "title": "Haunted Nights",
-    "author": "Nina Blake",
-    "genre": "Horror",
-    "description": "A chilling story of a family haunted by unseen forces in their new home.",
-    "status": "unread",
-    "image": "placeholder_for_haunted_nights.png",
-    "price": 14.99
-  },
-  {
-    "id": 24,
-    "title": "Quantum Dreams",
-    "author": "William Fox",
-    "genre": "Science Fiction",
-    "description": "A journey into the multiverse through the eyes of a quantum physicist.",
-    "status": "read",
-    "image": "placeholder_for_quantum_dreams.png",
-    "price": 16.99
-  },
-  {
-    "id": 25,
-    "title": "The Lost Artifact",
-    "author": "Grace Lee",
-    "genre": "Adventure",
-    "description": "A thrilling adventure to uncover a legendary artifact that has been lost for centuries.",
-    "status": "unread",
-    "image": "placeholder_for_lost_artifact.png",
-    "price": 13.59
-  },
-  {
-    "id": 26,
-    "title": "Heart of the Ocean",
-    "author": "Oliver Cole",
-    "genre": "Romance",
-    "description": "A moving romance set against the vast, unpredictable waves of the sea.",
-    "status": "read",
-    "image": "placeholder_for_heart_of_ocean.png",
-    "price": 9.99
-  },
-  {
-    "id": 27,
-    "title": "The Time Traveler's Diary",
-    "author": "Isaac Ward",
-    "genre": "Science Fiction",
-    "description": "A thrilling tale of a man who discovers a diary that lets him travel through time.",
-    "status": "unread",
-    "image": "placeholder_for_time_travelers_diary.png",
-    "price": 19.49
-  },
-  {
-    "id": 28,
-    "title": "Mysterious Islands",
-    "author": "Emma Scott",
-    "genre": "Mystery",
-    "description": "A group of friends unearth hidden secrets on a remote island filled with danger.",
-    "status": "read",
-    "image": "placeholder_for_mysterious_islands.png",
-    "price": 11.99
-  },
-  {
-    "id": 29,
-    "title": "Galactic Odyssey",
-    "author": "Luke Daniels",
-    "genre": "Science Fiction",
-    "description": "An epic space opera following the journey of a starship exploring the outer reaches of the galaxy.",
-    "status": "unread",
-    "image": "placeholder_for_galactic_odyssey.png",
-    "price": 18.79
-  },
-  {
-    "id": 30,
-    "title": "Echoes of the Past",
-    "author": "Sophia Harper",
-    "genre": "Historical Fiction",
-    "description": "A historical novel intertwining the lives of two families across generations.",
-    "status": "read",
-    "image": "placeholder_for_echoes_of_past.png",
-    "price": 14.49
-  },
-  {
-    "id": 31,
-    "title": "Cyber Wars",
-    "author": "James Monroe",
-    "genre": "Technology",
-    "description": "A riveting tale of cyber attacks and digital warfare in a near-future world.",
-    "status": "unread",
-    "image": "placeholder_for_cyber_wars.png",
-    "price": 17.29
-  },
-  {
-    "id": 32,
-    "title": "The Dark Forest",
-    "author": "Rachel King",
-    "genre": "Fantasy",
-    "description": "An enchanted forest holds a dark secret waiting to be uncovered by a brave adventurer.",
-    "status": "read",
-    "image": "placeholder_for_dark_forest.png",
-    "price": 10.99
-  },
-  {
-    "id": 33,
-    "title": "Silent Waters",
-    "author": "Hannah Quinn",
-    "genre": "Mystery",
-    "description": "A suspenseful mystery about a quiet coastal town where dark secrets lie beneath the surface.",
-    "status": "unread",
-    "image": "placeholder_for_silent_waters.png",
-    "price": 9.99
-  },
-  {
-    "id": 34,
-    "title": "Rise of the Machines",
-    "author": "Daniel Hughes",
-    "genre": "Science Fiction",
-    "description": "A post-apocalyptic world where machines have taken over and a group of survivors fights back.",
-    "status": "read",
-    "image": "placeholder_for_rise_of_machines.png",
-    "price": 13.79
-  },
-  {
-    "id": 35,
-    "title": "Cursed Lands",
-    "author": "Lily Taylor",
-    "genre": "Fantasy",
-    "description": "A young hero must break the curse that plagues a forgotten land.",
-    "status": "unread",
-    "image": "placeholder_for_cursed_lands.png",
-    "price": 15.29
-  },
-  {
-    "id": 36,
-    "title": "Shattered Realms",
-    "author": "Joshua Brown",
-    "genre": "Science Fiction",
-    "description": "A story of interdimensional travel and the chaos that unfolds when the realms collide.",
-    "status": "read",
-    "image": "placeholder_for_shattered_realms.png",
-    "price": 11.49
-  },
-  {
-    "id": 37,
-    "title": "Crimson Moon",
-    "author": "Ava Collins",
-    "genre": "Horror",
-    "description": "A terrifying tale of werewolves and the blood moon that drives them to madness.",
-    "status": "unread",
-    "image": "placeholder_for_crimson_moon.png",
-    "price": 14.79
-  },
-  {
-    "id": 38,
-    "title": "The Architect's Secret",
-    "author": "Samuel Wright",
-    "genre": "Mystery",
-    "description": "An ancient secret is hidden within the blueprints of an old building.",
-    "status": "read",
-    "image": "placeholder_for_architects_secret.png",
-    "price": 12.59
-  },
-  {
-    "id": 39,
-    "title": "Virtual Revolution",
-    "author": "Megan Edwards",
-    "genre": "Technology",
-    "description": "A near-future world where virtual reality has taken over, leading to unexpected consequences.",
-    "status": "unread",
-    "image": "placeholder_for_virtual_revolution.png",
-    "price": 16.99
-  },
-  {
-    "id": 40,
-    "title": "Beneath the Ice",
-    "author": "Ryan Brooks",
-    "genre": "Thriller",
-    "description": "A thrilling expedition to the Antarctic uncovers a deadly secret hidden beneath the ice.",
-    "status": "read",
-    "image": "placeholder_for_beneath_the_ice.png",
-    "price": 14.49
-  }
-]
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Example Book",
+      "author": "John Doee",
+      "genre": "Fiction",
+      "description": "An example description.",
+      "image": "1.webp",
+      "price": "24"
+    },
+    {
+      "id": "2",
+      "title": "Another Book",
+      "author": "Jane Doe",
+      "genre": "Non-Fiction",
+      "description": "Another example description.",
+      "image": "another_placeholder.png",
+      "price": "16"
+    },
+    {
+      "id": "3",
+      "title": "Mystery Novel",
+      "author": "John Smith",
+      "genre": "Mystery",
+      "description": "A thrilling mystery novel.",
+      "image": "mystery_placeholder.png",
+      "price": "13"
+    },
+    {
+      "id": "4",
+      "title": "Science Fiction",
+      "author": "Mary Johnson",
+      "genre": "Science Fiction",
+      "description": "A futuristic science fiction story.",
+      "status": "read",
+      "image": "sci-fi_placeholder.png",
+      "price": 20
+    },
+    {
+      "id": "5",
+      "title": "Historical Fiction",
+      "author": "Michael Brown",
+      "genre": "Historical Fiction",
+      "description": "A captivating historical tale.",
+      "status": "unread",
+      "image": "historical_placeholder.png",
+      "price": 8.99
+    },
+    {
+      "id": "6",
+      "title": "Romantic Novel",
+      "author": "Emily Davis",
+      "genre": "Romance",
+      "description": "A heartwarming romantic story.",
+      "status": "read",
+      "image": "romance_placeholder.png",
+      "price": 14.99
+    },
+    {
+      "id": "7",
+      "title": "Self-Help Book",
+      "author": "David Wilson",
+      "genre": "Self-Help",
+      "description": "A guide to personal improvement.",
+      "status": "unread",
+      "image": "selfhelp_placeholder.png",
+      "price": 9.5
+    },
+    {
+      "id": "8",
+      "title": "Cookbook",
+      "author": "Sarah Lee",
+      "genre": "Cookbook",
+      "description": "Delicious recipes for home cooking.",
+      "status": "read",
+      "image": "cookbook_placeholder.png",
+      "price": 18.99
+    },
+    {
+      "id": "9",
+      "title": "Travel Guide",
+      "author": "Chris Martin",
+      "genre": "Travel",
+      "description": "Explore the world with this guide.",
+      "status": "unread",
+      "image": "travel_placeholder.png",
+      "price": 22
+    },
+    {
+      "id": "10",
+      "title": "Biography",
+      "author": "Patricia Garcia",
+      "genre": "Biography",
+      "description": "An inspiring life story.",
+      "status": "read",
+      "image": "biography_placeholder.png",
+      "price": 11.5
+    },
+    {
+      "id": "11",
+      "title": "Fantasy World",
+      "author": "Robert Martinez",
+      "genre": "Fantasy",
+      "description": "A journey through a magical realm.",
+      "status": "unread",
+      "image": "fantasy_placeholder.png",
+      "price": 19.99
+    },
+    {
+      "id": "12",
+      "title": "Health and Wellness",
+      "author": "Jennifer Wilson",
+      "genre": "Health",
+      "description": "A guide to living well.",
+      "status": "read",
+      "image": "health_placeholder.png",
+      "price": 15
+    },
+    {
+      "id": "13",
+      "title": "Children's Book",
+      "author": "Jessica Taylor",
+      "genre": "Children",
+      "description": "A delightful story for kids.",
+      "status": "unread",
+      "image": "children_placeholder.png",
+      "price": 7.99
+    },
+    {
+      "id": "14",
+      "title": "Thriller Novel",
+      "author": "William Anderson",
+      "genre": "Thriller",
+      "description": "An edge-of-your-seat thriller.",
+      "status": "read",
+      "image": "thriller_placeholder.png",
+      "price": 16.5
+    },
+    {
+      "id": "15",
+      "title": "Poetry Collection",
+      "author": "Linda Thomas",
+      "genre": "Poetry",
+      "description": "A collection of beautiful poems.",
+      "status": "unread",
+      "image": "poetry_placeholder.png",
+      "price": 12
+    },
+    {
+      "id": "16",
+      "title": "Graphic Novel",
+      "author": "Charles Jackson",
+      "genre": "Graphic Novel",
+      "description": "A visually stunning graphic novel.",
+      "status": "read",
+      "image": "graphicnovel_placeholder.png",
+      "price": 23.99
+    },
+    {
+      "id": "17",
+      "title": "Dystopian Fiction",
+      "author": "Joseph White",
+      "genre": "Dystopian",
+      "description": "A look into a dystopian future.",
+      "status": "unread",
+      "image": "dystopian_placeholder.png",
+      "price": 21
+    },
+    {
+      "id": "18",
+      "title": "True Crime",
+      "author": "Karen Harris",
+      "genre": "True Crime",
+      "description": "Investigating real-life crimes.",
+      "status": "read",
+      "image": "truecrime_placeholder.png",
+      "price": 17.5
+    },
+    {
+      "id": "19",
+      "title": "Fantasy Series",
+      "author": "Barbara Clark",
+      "genre": "Fantasy",
+      "description": "An epic fantasy series.",
+      "status": "unread",
+      "image": "fantasyseries_placeholder.png",
+      "price": 24.99
+    },
+    {
+      "id": "20",
+      "title": "Classic Literature",
+      "author": "Susan Lewis",
+      "genre": "Literature",
+      "description": "Timeless classics from the literary world.",
+      "status": "read",
+      "image": "classic_placeholder.png",
+      "price": 13.5
+    },
+    {
+      "id": "21",
+      "title": "Classic Literature",
+      "author": "Susan Lewis",
+      "genre": "Literature",
+      "description": "Timeless classics from the literary world.",
+      "status": "read",
+      "image": "classic_placeholder.png",
+      "price": 13.5
+    },
+    {
+      "id": "23",
+      "title": "Classic Literature",
+      "author": "Susan Lewis",
+      "genre": "Literature",
+      "description": "Timeless classics from the literary world.",
+      "status": "read",
+      "image": "classic_placeholder.png",
+      "price": 13.5
+    },
+    {
+      "id": "23",
+      "title": "Classic Literature",
+      "author": "Susan Lewis",
+      "genre": "Literature",
+      "description": "Timeless classics from the literary world.",
+      "status": "read",
+      "image": "classic_placeholder.png",
+      "price": 13.5
+    },
+    {
+      "id": "23",
+      "title": "Classic Literature",
+      "author": "Susan Lewis",
+      "genre": "Literature",
+      "description": "Timeless classics from the literary world.",
+      "status": "read",
+      "image": "classic_placeholder.png",
+      "price": 13.5
+    },
+    {
+      "id": "23",
+      "title": "Classic Literature",
+      "author": "Susan Lewis",
+      "genre": "Literature",
+      "description": "Timeless classics from the literary world.",
+      "status": "read",
+      "image": "classic_placeholder.png",
+      "price": 13.5
+    },
+    {
+      "id": "1044",
+      "title": "aa",
+      "author": "aa",
+      "genre": "aa",
+      "description": "aa",
+      "status": "unread",
+      "price": "3",
+      "image": "ss"
+    },
+    {
+      "id": "1044",
+      "title": "MMM",
+      "author": "MMMM",
+      "genre": "AAM",
+      "description": "MMMMM",
+      "status": "unread",
+      "price": "222",
+      "image": "aa.png"
+    },
+    {
+      "id": "1044",
+      "title": "www",
+      "author": "Ww",
+      "genre": "aa",
+      "description": "ww",
+      "status": "unread",
+      "price": "22",
+      "image": "ww.png"
+    },
+    {
+      "id": "1044",
+      "title": "lasr",
+      "author": "last",
+      "genre": "asd",
+      "description": "aa",
+      "status": "unread",
+      "price": "22",
+      "image": "343.png"
+    },
+    {
+      "id": "1044",
+      "title": "aa",
+      "author": "aa",
+      "genre": "BBBBB",
+      "description": "aa",
+      "status": "unread",
+      "price": "3",
+      "image": "aa.png"
+    },
+    {
+      "id": "1044",
+      "title": "JJJ",
+      "author": "JJJ",
+      "genre": "KKK",
+      "description": "KK",
+      "status": "unread",
+      "price": "9",
+      "image": "KKK.png"
+    },
+    {
+      "id": "1045",
+      "title": "LLL",
+      "author": "LL",
+      "genre": "LLLL",
+      "description": "LL",
+      "status": "unread",
+      "price": "4",
+      "image": "LL"
+    },
+    {
+      "id": "1046",
+      "title": "fds",
+      "author": "fsd",
+      "genre": "aa",
+      "description": "fds",
+      "status": "unread",
+      "price": "34",
+      "image": "LL.png"
+    },
+    {
+      "id": "1047",
+      "title": "this is ts ts ",
+      "author": "this is ts ts ",
+      "genre": "this is ts ts ",
+      "description": "this is ts ts ",
+      "status": "unread",
+      "price": "232",
+      "image": "IMG_5667.jpeg"
+    },
+    {
+      "id": "1048",
+      "title": "das",
+      "author": "das",
+      "genre": "das",
+      "description": "das",
+      "status": "unread",
+      "price": "231",
+      "image": "242652573_4699275943418604_3704718376081087231_n.jpg"
+    },
+    {
+      "id": "1049",
+      "title": "laast",
+      "author": "das",
+      "genre": "666",
+      "description": "das",
+      "status": "unread",
+      "price": "33",
+      "image": "IMG_5682.jpeg"
+    },
+    {
+      "id": "1050",
+      "title": "das",
+      "author": "das",
+      "genre": "321",
+      "description": "das",
+      "status": "unread",
+      "price": "223",
+      "image": "IMG_5682.jpeg"
+    }
+  ]
+}
