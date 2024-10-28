@@ -62,6 +62,29 @@ header {
   margin-bottom: 20px;
 }
 
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-footer .add-to-list-btn {
+  background: #0b910b;
+  border: 1px solid #0b910b;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 400;
+  padding: 10px 20px;
+  border-radius: 50px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.card-footer .add-to-list-btn:hover {
+  background: #ffffff;
+  color: #0b910b;
+}
+
 .actions {
   display: flex;
   gap: 10px;
