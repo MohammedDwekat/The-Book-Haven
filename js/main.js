@@ -46,9 +46,10 @@ fetch("http://localhost:3000/books")
             <p class="description">${book.description}</p>
           </div>
           <div class="card-footer">
-            <button class="read-more-btn" onClick="window.location.href='pages/SingleBook.html?id=${book.id}'">Read More</button>
+             <button class="read-more-btn" onclick="readStatus(${book.id})"><p> <span class="status" id="status">${book.status}</span></p></button>
+            <button class="read-more-btn" onClick="window.location.href='SingleBook.html?id=${book.id}'">Read More</button>
             <div class="actions">
-              <button type="submit" style="border: none;" onClick="window.location.href='pages/UpdateBooks.html?id=${book.id}'">
+              <button type="submit" style="border: none;" onClick="window.location.href='UpdateBooks.html?id=${book.id}'">
                 <i class="bx bxs-edit update-icon"></i>
               </button>
               <button onClick="deleteBook(${book.id})" style="border: none;">

@@ -12,7 +12,7 @@ form.addEventListener("submit", function (event) {
   const status = "unread";
   const price = document.getElementById("price").value;
   const image = document.getElementById("image");
-  const imageName = image.files[0].name;
+  const imageName = image.files.length > 0 ? image.files[0].name : "5.webp";
 
   fetch("http://localhost:3000/books")
     .then((response) => {
@@ -37,7 +37,7 @@ form.addEventListener("submit", function (event) {
         image: imageName,
       };
 
-      fetch("http://localhost:3000/books", {
+      return fetch("http://localhost:3000/books", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -51,6 +51,9 @@ form.addEventListener("submit", function (event) {
         return response.json();
       }
       throw new Error("Failed to add the book");
+    })
+    .then(() => {
+      window.location.href = "../pages/AllBooks.html"; // Redirect to main page after update
     })
 
     .catch((error) => {
