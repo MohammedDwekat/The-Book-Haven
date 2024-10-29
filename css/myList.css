@@ -1,8 +1,6 @@
 @import "header.css";
 @import "cards.css";
-@import "contact.css";
 @import "footer.css";
-@import "SingleBook.css";
 
 * {
   margin: 0;
@@ -10,6 +8,11 @@
   text-decoration: none;
   list-style: none;
   font-family: "Poppins";
+}
+
+header {
+  width: auto;
+  height: auto;
 }
 
 /* Scroll to Top Button */

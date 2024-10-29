@@ -71,16 +71,6 @@
       "price": 9.5
     },
     {
-      "id": "8",
-      "title": "Cookbook",
-      "author": "Sarah Lee",
-      "genre": "Cookbook",
-      "description": "Delicious recipes for home cooking.",
-      "status": "read",
-      "image": "cookbook_placeholder.png",
-      "price": 18.99
-    },
-    {
       "id": "9",
       "title": "Travel Guide",
       "author": "Chris Martin",

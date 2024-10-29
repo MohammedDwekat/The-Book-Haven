@@ -3,7 +3,7 @@
   max-width: 88%;
   margin: auto;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   border-radius: 10px;
   margin-top: 20px;
 }
@@ -30,6 +30,18 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
   position: relative;
+}
+
+.status-icon {
+  font-size: 24px;
+  margin-bottom: 10px;
+  /* color: green; */
+  transition: color 0.2s ease;
+  cursor: pointer;
+}
+
+[data-readable="false"] .status-icon {
+  color: red;
 }
 
 .product-card img {
@@ -87,7 +99,7 @@
 
 .show-more-container {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 60px;
 }
 
 .show-more-btn {
@@ -136,4 +148,32 @@
 
 .product-card:hover {
   transform: scale(1.02);
+}
+
+.actions button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.update-icon,
+.delete-icon {
+  font-size: 20px;
+  color: #001f87;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.delete-icon {
+  color: #8b0000;
+}
+
+.update-icon:hover {
+  color: #0026a0;
+  transform: scale(1.1);
+}
+
+.delete-icon:hover {
+  color: #a10000;
+  transform: scale(1.1);
 }
