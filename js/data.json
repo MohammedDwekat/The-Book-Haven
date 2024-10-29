@@ -1,53 +1,14 @@
 {
   "books": [
     {
-      "id": "2",
-      "title": "Another Book",
-      "author": "Jane Doe",
-      "genre": "Non-Fiction",
-      "description": "Another example description.",
-      "image": "another_placeholder.png",
-      "price": "16"
-    },
-    {
-      "id": "4",
-      "title": "Science Fiction",
-      "author": "Mary Johnson",
-      "genre": "Science Fiction",
-      "description": "A futuristic science fiction story.",
-      "status": "read",
-      "image": "sci-fi_placeholder.png",
-      "price": 20
-    },
-    {
-      "id": "6",
-      "title": "Romantic Novel",
-      "author": "Emily Davis",
-      "genre": "Romance",
-      "description": "A heartwarming romantic story.",
-      "status": "read",
-      "image": "romance_placeholder.png",
-      "price": 14.99
-    },
-    {
-      "id": "7",
-      "title": "Self-Help Book",
-      "author": "David Wilson",
-      "genre": "Self-Help",
-      "description": "A guide to personal improvement.",
-      "status": "unread",
-      "image": "selfhelp_placeholder.png",
-      "price": 9.5
-    },
-    {
       "id": "9",
       "title": "Travel Guide",
       "author": "Chris Martin",
       "genre": "Travel",
       "description": "Explore the world with this guide.",
-      "status": "unread",
-      "image": "travel_placeholder.png",
-      "price": 22
+      "image": "9.webp",
+      "price": "22",
+      "status": "read"
     },
     {
       "id": "11",
@@ -55,9 +16,9 @@
       "author": "Robert Martinez",
       "genre": "Fantasy",
       "description": "A journey through a magical realm.",
-      "status": "unread",
-      "image": "fantasy_placeholder.png",
-      "price": 19.99
+      "image": "6.webp",
+      "price": "20",
+      "status": "read"
     },
     {
       "id": "12",
@@ -65,9 +26,9 @@
       "author": "Jennifer Wilson",
       "genre": "Health",
       "description": "A guide to living well.",
-      "status": "read",
-      "image": "health_placeholder.png",
-      "price": 15
+      "image": "7.jpg",
+      "price": "15",
+      "status": "unread"
     },
     {
       "id": "13",
@@ -75,9 +36,9 @@
       "author": "Jessica Taylor",
       "genre": "Children",
       "description": "A delightful story for kids.",
-      "status": "unread",
-      "image": "children_placeholder.png",
-      "price": 7.99
+      "image": "8.jpg",
+      "price": "8",
+      "status": "unread"
     },
     {
       "id": "14",
@@ -85,9 +46,8 @@
       "author": "William Anderson",
       "genre": "Thriller",
       "description": "An edge-of-your-seat thriller.",
-      "status": "read",
-      "image": "thriller_placeholder.png",
-      "price": 16.5
+      "image": "14.jpg",
+      "price": "17"
     },
     {
       "id": "15",
@@ -95,9 +55,8 @@
       "author": "Linda Thomas",
       "genre": "Poetry",
       "description": "A collection of beautiful poems.",
-      "status": "unread",
-      "image": "poetry_placeholder.png",
-      "price": 12
+      "image": "12.jpg",
+      "price": "12"
     },
     {
       "id": "16",
@@ -105,9 +64,8 @@
       "author": "Charles Jackson",
       "genre": "Graphic Novel",
       "description": "A visually stunning graphic novel.",
-      "status": "read",
-      "image": "graphicnovel_placeholder.png",
-      "price": 23.99
+      "image": "17.jpg",
+      "price": "24"
     },
     {
       "id": "17",
@@ -115,9 +73,8 @@
       "author": "Joseph White",
       "genre": "Dystopian",
       "description": "A look into a dystopian future.",
-      "status": "unread",
-      "image": "dystopian_placeholder.png",
-      "price": 21
+      "image": "18.webp",
+      "price": "21"
     },
     {
       "id": "18",
@@ -125,169 +82,47 @@
       "author": "Karen Harris",
       "genre": "True Crime",
       "description": "Investigating real-life crimes.",
-      "status": "read",
-      "image": "truecrime_placeholder.png",
-      "price": 17.5
+      "image": "bookcover.webp",
+      "price": "18"
     },
     {
-      "id": "19",
-      "title": "Fantasy Series",
-      "author": "Barbara Clark",
-      "genre": "Fantasy",
-      "description": "An epic fantasy series.",
+      "id": "1049",
+      "title": "Another Book",
+      "author": "Jane Doe",
+      "genre": "Non-Fiction",
+      "description": "Another example description.",
+      "image": "2.webp",
+      "price": "17"
+    },
+    {
+      "id": "1050",
+      "title": "Mystery Novel",
+      "author": "John Smith",
+      "genre": "Mystery",
+      "description": "A thrilling mystery novel.",
       "status": "unread",
-      "image": "fantasyseries_placeholder.png",
-      "price": 24.99
+      "image": "3.webp",
+      "price": "13"
     },
     {
-      "id": "20",
-      "title": "Classic Literature",
-      "author": "Susan Lewis",
-      "genre": "Literature",
-      "description": "Timeless classics from the literary world.",
-      "status": "read",
-      "image": "classic_placeholder.png",
-      "price": 13.5
-    },
-    {
-      "id": "21",
-      "title": "Classic Literature",
-      "author": "Susan Lewis",
-      "genre": "Literature",
-      "description": "Timeless classics from the literary world.",
-      "status": "read",
-      "image": "classic_placeholder.png",
-      "price": 13.5
-    },
-    {
-      "id": "23",
-      "title": "Classic Literature",
-      "author": "Susan Lewis",
-      "genre": "Literature",
-      "description": "Timeless classics from the literary world.",
-      "status": "read",
-      "image": "classic_placeholder.png",
-      "price": 13.5
-    },
-    {
-      "id": "23",
-      "title": "Classic Literature",
-      "author": "Susan Lewis",
-      "genre": "Literature",
-      "description": "Timeless classics from the literary world.",
-      "status": "read",
-      "image": "classic_placeholder.png",
-      "price": 13.5
-    },
-    {
-      "id": "23",
-      "title": "Classic Literature",
-      "author": "Susan Lewis",
-      "genre": "Literature",
-      "description": "Timeless classics from the literary world.",
-      "status": "read",
-      "image": "classic_placeholder.png",
-      "price": 13.5
-    },
-    {
-      "id": "23",
-      "title": "Classic Literature",
-      "author": "Susan Lewis",
-      "genre": "Literature",
-      "description": "Timeless classics from the literary world.",
-      "status": "read",
-      "image": "classic_placeholder.png",
-      "price": 13.5
-    },
-    {
-      "id": "1044",
-      "title": "aa",
-      "author": "aa",
-      "genre": "aa",
-      "description": "aa",
+      "id": "1051",
+      "title": "Science Fiction",
+      "author": "Mary Johnson",
+      "genre": "Science Fiction",
+      "description": "A futuristic science fiction story.",
       "status": "unread",
-      "price": "3",
-      "image": "ss"
+      "image": "4.jpg",
+      "price": "20"
     },
     {
-      "id": "1044",
-      "title": "MMM",
-      "author": "MMMM",
-      "genre": "AAM",
-      "description": "MMMMM",
+      "id": "1052",
+      "title": "Historical Fiction",
+      "author": "Michael Brown",
+      "genre": "Historical Fiction",
+      "description": "A captivating historical tale.",
       "status": "unread",
-      "price": "222",
-      "image": "aa.png"
-    },
-    {
-      "id": "1044",
-      "title": "www",
-      "author": "Ww",
-      "genre": "aa",
-      "description": "ww",
-      "status": "unread",
-      "price": "22",
-      "image": "ww.png"
-    },
-    {
-      "id": "1044",
-      "title": "lasr",
-      "author": "last",
-      "genre": "asd",
-      "description": "aa",
-      "status": "unread",
-      "price": "22",
-      "image": "343.png"
-    },
-    {
-      "id": "1044",
-      "title": "aa",
-      "author": "aa",
-      "genre": "BBBBB",
-      "description": "aa",
-      "status": "unread",
-      "price": "3",
-      "image": "aa.png"
-    },
-    {
-      "id": "1044",
-      "title": "JJJ",
-      "author": "JJJ",
-      "genre": "KKK",
-      "description": "KK",
-      "status": "unread",
-      "price": "9",
-      "image": "KKK.png"
-    },
-    {
-      "id": "1045",
-      "title": "LLL",
-      "author": "LL",
-      "genre": "LLLL",
-      "description": "LL",
-      "status": "unread",
-      "price": "4",
-      "image": "LL"
-    },
-    {
-      "id": "10471111",
-      "title": "داتا بيس",
-      "author": "يزيد",
-      "genre": "يءشي",
-      "description": "ءةنشةءن",
-      "status": "unread",
-      "price": "10",
-      "image": "1.webp"
-    },
-    {
-      "id": "104711111",
-      "title": "os",
-      "author": "يزيد",
-      "genre": "يءشي",
-      "description": "ءةنشةءن",
-      "status": "unread",
-      "price": "10",
-      "image": "1.webp"
+      "image": "5.webp",
+      "price": 8.99
     }
   ]
 }
