@@ -10,15 +10,6 @@
       "price": "16"
     },
     {
-      "id": "3",
-      "title": "Mystery Novel",
-      "author": "John Smith",
-      "genre": "Mystery",
-      "description": "A thrilling mystery novel.",
-      "image": "mystery_placeholder.png",
-      "price": "13"
-    },
-    {
       "id": "4",
       "title": "Science Fiction",
       "author": "Mary Johnson",
@@ -57,16 +48,6 @@
       "status": "unread",
       "image": "travel_placeholder.png",
       "price": 22
-    },
-    {
-      "id": "10",
-      "title": "Biography",
-      "author": "Patricia Garcia",
-      "genre": "Biography",
-      "description": "An inspiring life story.",
-      "status": "read",
-      "image": "biography_placeholder.png",
-      "price": 11.5
     },
     {
       "id": "11",
@@ -289,32 +270,23 @@
       "image": "LL"
     },
     {
-      "id": "1047",
-      "title": "this is ts ts ",
-      "author": "this is ts ts ",
-      "genre": "this is ts ts ",
-      "description": "this is ts ts ",
+      "id": "10471111",
+      "title": "داتا بيس",
+      "author": "يزيد",
+      "genre": "يءشي",
+      "description": "ءةنشةءن",
       "status": "unread",
-      "price": "232",
-      "image": "IMG_5667.jpeg"
+      "price": "10",
+      "image": "1.webp"
     },
     {
-      "id": "10471",
-      "title": "معا نصنع الفجر القادم",
-      "author": "خالد ابو شادي",
+      "id": "104711111",
+      "title": "os",
+      "author": "يزيد",
       "genre": "يءشي",
-      "description": "moo",
-      "image": "1.webp",
-      "price": "20"
-    },
-    {
-      "id": "104711",
-      "title": "معا نصنع الفجر القادم",
-      "author": "خالد ابو شادي",
-      "genre": "يءشي",
-      "description": "moo",
+      "description": "ءةنشةءن",
       "status": "unread",
-      "price": "20",
+      "price": "10",
       "image": "1.webp"
     }
   ]

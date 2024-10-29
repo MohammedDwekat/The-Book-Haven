@@ -68,7 +68,7 @@ header {
   align-items: center;
 }
 
-.card-footer .add-to-list-btn {
+.list-toggle-btn {
   background: #0b910b;
   border: 1px solid #0b910b;
   font-size: 24px;
@@ -80,6 +80,11 @@ header {
   cursor: pointer;
 }
 
+.list-toggle-btn:hover {
+  background: #ffffff;
+  color: #0b910b;
+}
+
 .card-footer .add-to-list-btn:hover {
   background: #ffffff;
   color: #0b910b;
@@ -88,6 +93,8 @@ header {
 .actions {
   display: flex;
   gap: 10px;
+  justify-content: end;
+  padding: 10px;
 }
 
 .update-icon,

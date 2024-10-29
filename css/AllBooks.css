@@ -49,6 +49,20 @@ header {
   background-color: #45a049;
 }
 
+.bookmark-btn {
+  background: #ffcc00;
+  color: #333;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bookmark-btn:hover {
+  background: #ffdd33;
+}
+
 /* ----- Responsive ----- */
 @media (max-width: 1420px) {
 }
