@@ -12,17 +12,21 @@ fetch("http://localhost:3000/books")
         
         <div class="product-card">
         <input type="hidden" id="${book.id}" />
-          <img
+          <img id="image-${book.id}"
             src="../imgs/${book.image}"
             alt="${book.description}"
           />
           <div class="book-details">
-            <h3>${book.title}</h3>
-            <p>${book.author}</p>
-            <p class="price">${book.price}</p>
-            <p class="description">
+            <h3 id="title-${book.id}">${book.title}</h3>
+            <p id="author-${book.id}">${book.author}</p>
+            <p id="price-${book.id}" class="price">${book.price}</p>
+            <p id="description-${book.id}" class="description">
               ${book.description}
             </p>
+
+      <button onClick="addToMyList(${book.id})">1 </button>
+    <button class="read-more-btn" onclick="readStatus(${book.id})"><p> <span class="status" id="status">${book.status}</span></p></button>
+
           </div>
           <div class="card-footer">
             <button class="read-more-btn" onClick="window.location.href='singleBook.html?id=${book.id}'">Read More</button>

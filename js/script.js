@@ -58,4 +58,5 @@ form.addEventListener("submit", function (event) {
     });
 
   form.reset();
+  //window.location.href = "../pages/AllBooks.html"; // Redirect to main page after update
 });
