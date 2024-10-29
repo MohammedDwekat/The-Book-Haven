@@ -2,6 +2,7 @@
 @import "cards.css";
 @import "contact.css";
 @import "footer.css";
+@import "SingleBook.css";
 
 * {
   margin: 0;

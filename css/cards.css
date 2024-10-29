@@ -149,3 +149,31 @@
 .product-card:hover {
   transform: scale(1.02);
 }
+
+.actions button {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.update-icon,
+.delete-icon {
+  font-size: 20px;
+  color: #001f87;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.delete-icon {
+  color: #8b0000;
+}
+
+.update-icon:hover {
+  color: #0026a0;
+  transform: scale(1.1);
+}
+
+.delete-icon:hover {
+  color: #a10000;
+  transform: scale(1.1);
+}

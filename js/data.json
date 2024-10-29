@@ -1,15 +1,6 @@
 {
   "books": [
     {
-      "id": "1",
-      "title": "Example Book",
-      "author": "John Doee",
-      "genre": "Fiction",
-      "description": "An example description.",
-      "image": "1.webp",
-      "price": "25"
-    },
-    {
       "id": "2",
       "title": "Another Book",
       "author": "Jane Doe",
@@ -38,16 +29,6 @@
       "price": 20
     },
     {
-      "id": "5",
-      "title": "Historical Fiction",
-      "author": "Michael Brown",
-      "genre": "Historical Fiction",
-      "description": "A captivating historical tale.",
-      "status": "unread",
-      "image": "historical_placeholder.png",
-      "price": 8.99
-    },
-    {
       "id": "6",
       "title": "Romantic Novel",
       "author": "Emily Davis",
@@ -66,16 +47,6 @@
       "status": "unread",
       "image": "selfhelp_placeholder.png",
       "price": 9.5
-    },
-    {
-      "id": "8",
-      "title": "Cookbook",
-      "author": "Sarah Lee",
-      "genre": "Cookbook",
-      "description": "Delicious recipes for home cooking.",
-      "status": "read",
-      "image": "cookbook_placeholder.png",
-      "price": 18.99
     },
     {
       "id": "9",
@@ -326,6 +297,25 @@
       "status": "unread",
       "price": "232",
       "image": "IMG_5667.jpeg"
+    },
+    {
+      "id": "10471",
+      "title": "معا نصنع الفجر القادم",
+      "author": "خالد ابو شادي",
+      "genre": "يءشي",
+      "description": "moo",
+      "image": "1.webp",
+      "price": "20"
+    },
+    {
+      "id": "104711",
+      "title": "معا نصنع الفجر القادم",
+      "author": "خالد ابو شادي",
+      "genre": "يءشي",
+      "description": "moo",
+      "status": "unread",
+      "price": "20",
+      "image": "1.webp"
     }
   ]
 }
