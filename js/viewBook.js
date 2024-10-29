@@ -24,20 +24,18 @@ fetch("http://localhost:3000/books")
               ${book.description}
             </p>
 
-      <button onClick="addToMyList(${book.id})">1 </button>
-    <button class="read-more-btn" onclick="readStatus(${book.id})"><p> <span class="status" id="status">${book.status}</span></p></button>
-
           </div>
+           
           <div class="card-footer">
+           <button class="read-more-btn" onclick="readStatus(${book.id})"><p> <span class="status" id="status">${book.status}</span></p></button>
             <button class="read-more-btn" onClick="window.location.href='singleBook.html?id=${book.id}'">Read More</button>
             <div class="actions">
              <button type="submit" style="border: none;" onClick="window.location.href='UpdateBooks.html?id=${book.id}'">  <i class="bx bxs-edit update-icon"></i></button>
              <button onClick="deleteBook(${book.id})" style="border: none;" <i class="bx bxs-trash delete-icon"></i></button>
+         
             </div>
           </div>
         </div>
-
-        
         `;
         booklist.innerHTML += bookHTML;
       });

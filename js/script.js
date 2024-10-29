@@ -34,7 +34,7 @@ form.addEventListener("submit", function (event) {
         description,
         status,
         price,
-        image: imageName,
+        image: imageName || "5.webp",
       };
 
       fetch("http://localhost:3000/books", {
