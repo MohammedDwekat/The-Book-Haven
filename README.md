@@ -33,5 +33,4 @@ To run the project locally, you'll need to set up a JSON server.
   ```bash
   npm install -g json-server
 
-  ```bash
   json-server --watch js/data.json
