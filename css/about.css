@@ -25,8 +25,8 @@ header {
 }
 
 .set-row img {
-  width: 380px;
-  height: auto;
+  width: 330px;
+  height: 400px;
   border-radius: 20px;
 }
 
@@ -148,7 +148,8 @@ header {
   }
 
   .set-row img {
-    display: none;
+    /* display: none; */
+    width: 100%;
   }
 }
 

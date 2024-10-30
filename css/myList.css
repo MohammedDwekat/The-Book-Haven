@@ -49,6 +49,13 @@ header {
   background-color: #45a049;
 }
 
+.status-icon.read {
+  color: green;
+}
+
+.status-icon.unread {
+  color: gray;
+}
 /* ----- Responsive ----- */
 @media (max-width: 1420px) {
 }

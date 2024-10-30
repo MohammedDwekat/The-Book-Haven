@@ -1,28 +1,5 @@
 @import "about.css";
 
-/* * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  margin: 0;
-  background-color: #e5e5f7;
-  background: repeating-linear-gradient(
-    -45deg,
-    #0c920d,
-    #0c920d 5px,
-    #e5e5f7 5px,
-    #e5e5f7 80px
-  );
-} */
-
 .container {
   margin: 70px auto 50px;
   width: 100%;
@@ -98,7 +75,6 @@ button[type="submit"]:hover {
   scale: 1.05;
 }
 
-/* للتابلت */
 @media (max-width: 768px) {
   .container {
     padding: 30px;
@@ -114,7 +90,6 @@ button[type="submit"]:hover {
   }
 }
 
-/* للموبايل */
 @media (max-width: 480px) {
   .container {
     margin: 50px auto;
@@ -139,8 +114,6 @@ button[type="submit"]:hover {
   }
 }
 
-
-/* تابلت */
 @media (max-width: 768px) {
   .container {
     padding: 30px;
@@ -156,7 +129,6 @@ button[type="submit"]:hover {
   }
 }
 
-/* لحجم موبايل */
 @media (max-width: 480px) {
   .container {
     margin: 50px auto;

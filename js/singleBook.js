@@ -26,11 +26,11 @@ if (id) {
             <li id="genre"><strong>Genre:</strong> ${book.genre}</li>
           </ul>
 
-          
-          <div class="actions">
           <!-- Dynamic Add/Remove button -->
           <button class="list-toggle-btn">Add to My List</button>
-            <button type="submit" style="border: none;" onClick="window.location.href='pages/UpdateBooks.html?id=${book.id}'">
+
+          <div class="actions">
+            <button type="submit" style="border: none;" onClick="window.location.href='UpdateBooks.html?id=${book.id}'">
               <i class="bx bxs-edit update-icon"></i>
             </button>
             <button onClick="deleteBook(${book.id})" style="border: none;">
@@ -63,7 +63,7 @@ function toggleBookInList(bookId) {
     addToListButton.innerText = "Add to My List";
     alert("Book removed from your list.");
   } else {
-    // If the book is not in the list, add it
+    // If the book is not in the list, add it with initial status as "unread"
     const book = {
       id: bookId,
       title: document.getElementById("title").innerText,
@@ -74,6 +74,7 @@ function toggleBookInList(bookId) {
         .innerText.replace("Author: ", ""),
       genre: document.getElementById("genre").innerText.replace("Genre: ", ""),
       imageSrc: document.getElementById("currentImageName").getAttribute("src"),
+      status: "unread", // Initial status
     };
     savedBooks.push(book);
     localStorage.setItem("myBooksList", JSON.stringify(savedBooks));

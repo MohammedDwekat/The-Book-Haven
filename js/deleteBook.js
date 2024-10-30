@@ -8,8 +8,8 @@ const deleteBook = (bookId) => {
         if (!response.ok) {
           throw new Error("Failed to delete the book");
         }
-        alert("Book has been successfully deleted."); // Confirmation message
-        window.location.href = "../pages/AllBooks.html"; // Redirect to main page after deletion
+        alert("Book has been successfully deleted.");
+        window.location.href = "../pages/AllBooks.html";
       })
       .catch((error) => {
         console.error(error);

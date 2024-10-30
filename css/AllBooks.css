@@ -49,18 +49,12 @@ header {
   background-color: #45a049;
 }
 
-.bookmark-btn {
-  background: #ffcc00;
-  color: #333;
-  border: none;
-  padding: 5px 10px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
+.status-icon.read {
+  color: green;
 }
 
-.bookmark-btn:hover {
-  background: #ffdd33;
+.status-icon.unread {
+  color: gray;
 }
 
 /* ----- Responsive ----- */
